@@ -58,12 +58,16 @@ server <- function(input, output) {
     
     inFile <- input$file
     
-    if (is.null(inFile))
-      return(NULL)
-    
+    if (is.null(inFile)){
+      
+      return(Refdata$ref)
+      
+    }else{
+      
     dataInput <- read_input(inFile)
     return(dataInput)
-  })
+  }
+    })
   
   output$value <- renderPrint({
     n <- ncol( dataInput() ) - 150
