@@ -9,8 +9,11 @@ Shiny App link: https://meilingjin1002.shinyapps.io/MCLClusterJCI/
 
 Method2: Run from github
 Open your Rstudio
+
 library(shiny)
+
 runGitHub(repo='JCI2022', username='COHWangLab', ref = 'main')
+
 
 
 The example input is data/example_input.txt.
