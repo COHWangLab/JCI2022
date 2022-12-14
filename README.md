@@ -1,7 +1,11 @@
-# JCI2022
-Genetic lesion matrix and scripts to do the cluster analysis in manuscript: 
+# MCLClusterJCI
+Shiny App of project MCL samples into 4 clusters identified in publication: 
 https://www.jci.org/articles/view/153283/ga
 
-MCL_genetic_lesions.txt : Table for cluster of our cohort.
-ProjectNMF.R : Script to project your data to the cluster. (Please prepare your input table exactly as the MCL_genetic_lesions.txt)
+Method1: Load this link into your browser.
+Shiny App link: https://meilingjin1002.shinyapps.io/MCLClusterJCI/
 
+Method2: Run from github
+Open your Rstudio
+library(shiny)
+runGitHub(repo='JCI2022', username='COHWangLab', ref = 'main')
