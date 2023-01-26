@@ -1,6 +1,10 @@
 # MCLClusterJCI
-Shiny App of project MCL samples into 4 clusters identified in publication: 
+Code and input file to regenerate the cluster result of publication: 
 https://www.jci.org/articles/view/153283/ga
+The original cluster code is from https://github.com/broadinstitute/DLBCL_Nat_Med_April_2018
+
+Shiny App of project MCL samples into 4 clusters identified in publication: 
+
 
 Genetic lesion reference matrix also included samples from https://ashpublications.org/blood/article/136/12/1419/461130/Genomic-and-epigenomic-insights-into-the-origin
 
